@@ -22,7 +22,7 @@ class XdebugCommand extends Command
         $this->setDescription('Start Hyperf Server On Debug(xdebug) Mode.');
         //config
         $conf = $this->config->get('xdebug');
-        $this->server_name = $conf['sever_name'] ?? 'Unnamed';
+        $this->server_name = $conf['server_name'] ?? 'Unnamed';
         $this->cmd[] = $conf['bin_path'] ?? 'php';
         if (!empty($conf['xdebug'])) {
             foreach ($conf['xdebug'] as $key => $value) {

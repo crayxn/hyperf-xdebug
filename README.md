@@ -9,7 +9,7 @@ composer require crayxn/hyperf-xdebug
 ```
 ### config
 ```
-php bin/hyperf.php publish crayxn/hyperf-xdebug
+php bin/hyperf.php vendor:publish crayxn/hyperf-xdebug
 ```
 ### start
 ```
